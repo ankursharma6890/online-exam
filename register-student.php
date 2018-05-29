@@ -55,16 +55,11 @@
 							<div class="col-sm-12">
 								<div class="single-contact-box">
 									<div class="contact-form">
-                    <form>
+                    <form action="do-reg-student.php" method="post">
 											<div class="row">
 												<div class="col-sm-6 col-xs-12">
 													<div class="form-group">
-													  <input type="text" class="form-control" id="firstname" placeholder="First Name" name="firstname" required>
-													</div>
-												</div>
-												<div class="col-sm-6 col-xs-12">
-													<div class="form-group">
-													  <input type="text" class="form-control" id="lastname" placeholder="Last Name" name="laststname" required>
+													  <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name" required>
 													</div>
 												</div>
 											</div>
@@ -93,22 +88,22 @@
                             </div>
                             <div class="col-sm-3 col-xs-12">
                               <lable>MCA
-                              <input type="radio" class="form-control" id="male" name="gender"></lable>
+                              <input type="radio" class="form-control" id="male" name="course" value="mca"></lable>
                             </div>
                             <div class="col-sm-6 col-xs-12">
                               <lable>MBA
-                               <input type="radio" class="form-control" id="male" name="gender"></lable>
+                               <input type="radio" class="form-control" id="male" name="course" value="mba"></lable>
                            </div></div>
 
                            <div class="row">
 
                            <div class="col-sm-offset-3 col-sm-3 col-xs-12">
                              <lable>BCA
-                              <input type="radio" class="form-control" id="male" name="gender"></lable>
+                              <input type="radio" class="form-control" id="male" name="course" value="bca"></lable>
                           </div>
                           <div class="col-sm-6 col-xs-12">
                             <lable>BBA
-                             <input type="radio" class="form-control" id="male" name="gender"></lable>
+                             <input type="radio" class="form-control" id="male" name="course" value="bba"></lable>
                          </div>
                          </div>
 
@@ -124,11 +119,11 @@
                               </div>
                               <div class="col-sm-3 col-xs-12">
                                 <lable>Male
-                                <input type="radio" class="form-control" id="male" name="gender"></lable>
+                                <input type="radio" class="form-control" id="male" name="gender" value="male"></lable>
                               </div>
                               <div class="col-sm-6 col-xs-12">
                                 <lable>Female
-                                 <input type="radio" class="form-control" id="male" name="gender"></lable>
+                                 <input type="radio" class="form-control" id="male" name="gender" value="female"></lable>
                              </div>
                              </div>
                           </div>
@@ -160,7 +155,7 @@
 												</div>
                         <div class="col-sm-6">
 													<div class="form-group">
-                            <input type="password" class="form-control" id="password" placeholder="Confrm Password" name="password" required>
+                            <input type="password" class="form-control" id="password" placeholder="Confrm Password" name="re_password" required>
 													</div>
 												</div>
 											</div>
@@ -171,7 +166,7 @@
 													</div>
 
 													<div class="single-contact-btn pull-right">
-														<button class="contact-btn" type="button">Submit</button>
+														<button class="contact-btn" type="submit">Submit</button>
 													</div>
 												</div>
 											</div>

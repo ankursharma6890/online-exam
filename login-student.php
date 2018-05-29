@@ -78,7 +78,14 @@
 											<div class="row">
 												<div class="col-sm-offset-3 col-sm-6 col-xs-12">
 													<div class="form-group">
-														<input type="text" class="form-control" id="username" placeholder="User ID" name="code">
+														<input type="text" class="form-control" id="username" placeholder="User ID (For Teacher)" name="code">
+                            <br>
+                            <br>
+                            <h2 class="text-center" style="color: #ffffff">OR</h2>
+                            <br>
+                            <br>
+                            <input type="text" class="form-control" id="username" placeholder="Roll Number (For Student)" name="rollno">
+
 													</div>
 												</div>
 											</div>

@@ -1,8 +1,10 @@
 <?php
 include('server.php');
 
- $code = $_POST['code'];
+ $rollno = $_POST['rollno'];
  $name = $_POST['name'];
+ $fathername = $_POST['fathername'];
+
  $email = $_POST['email'];
  $phone = $_POST['phone'];
  $course = $_POST['course'];
@@ -22,9 +24,10 @@ include('server.php');
 
 
  // sql to create table
- // $sql = "CREATE TABLE `exam` (
- //   `userid` varchar(100) NOT NULL PRIMARY KEY,
+ // $sql = "CREATE TABLE `register_student` (
+ //   `rollno` int(20) NOT NULL PRIMARY KEY,
  //   `name` varchar(100) NOT NULL,
+ //   `fathername` varchar(100) NOT NULL,
  //   `email` varchar(100) NOT NULL,
  //   `mobile` varchar(16) NOT NULL,
  //   `course` varchar(100) NOT NULL,
@@ -33,13 +36,13 @@ include('server.php');
  // )";
  //
  // if ($db->query($sql) === TRUE) {
- //     echo "Table MyGuests created successfully";
+ //     echo "Table student created successfully";
  // } else {
  //     echo "Error creating table: " . $db->error;
  // }
 
  // sql to insert data
- $sql="INSERT INTO exam ( userid, name, email, mobile, course, gender, password) VALUES('$code', '$name', '$email', '$phone', '$course', '$gender', '$password')";
+ $sql="INSERT INTO register_student ( rollno, name, fathername, email, mobile, course, gender, password) VALUES('$rollno', '$name', '$fathername', '$email', '$phone', '$course', '$gender', '$password')";
 
 
 
