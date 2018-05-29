@@ -16,12 +16,12 @@
 								</div><!--/.hm-foot-title-->
 								<div class="hm-foot-para">
 									<p>
-										Lorem ipsum dolor sit amt conetur adcing elit. Sed do eiusod tempor utslr. Ut laboris nisi ut aute irure dolor in rein velit esse.
+										Automated examination process system for betterment and effectiveness processing.
 									</p>
 								</div><!--/.hm-foot-para-->
 								<div class="hm-foot-icon">
 									<ul>
-										<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li><!--/li-->
+										<li><a href="https://www.facebook.com/profile.php?id=100005784364807"><i class="fa fa-facebook" aria-hidden="true"></i></a></li><!--/li-->
 										<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li><!--/li-->
 										<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li><!--/li-->
 										<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li><!--/li-->
@@ -36,10 +36,10 @@
 								</div><!--/.hm-foot-title-->
 								<div class="footer-menu ">
 									<ul class="">
-										<li><a href="index.html" >Home</a></li>
-										<li><a href="about.html">About</a></li>
-										
-										<li><a href="contact.html">Contact us</a></li>
+										<li><a href="/" >Home</a></li>
+										<li><a href="/">About</a></li>
+
+										<li><a href="/">Contact us</a></li>
 									</ul>
 								</div><!-- /.footer-menu-->
 							</div><!--/.hm-footer-widget-->

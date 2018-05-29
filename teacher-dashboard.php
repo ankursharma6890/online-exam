@@ -98,20 +98,80 @@
     		<!--menu end-->
 
 
-		<!--contact start-->
-		<section id="contact"  class="contact">
-			<div class="container">
-				<div class="contact-details">
-					<div class="section-header contact-head  text-center">
-						<h2>Online Examination</h2>
-						<p>
-							Pallamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-						</p>
-					</div><!--/.section-header-->
 
-				</div>
-			</div>
 
-		</section>
+
+    <!--contact start-->
+    <section id="contact"  class="contact">
+      <div class="container">
+        <div class="contact-details">
+          <div class="section-header contact-head  text-center">
+            <h2>TEACHER DASHBOARD</h2>
+            <p>
+            The main objective of project on E-EXAMS is to manage the detail of the examination,
+              its scheduling ,faculty duty chart, student's detail and their result.
+            </p>
+          </div><!--/.section-header-->
+          <div class="contact-content">
+            <div class="row">
+
+              <div class="col-sm-12">
+                <div class="single-contact-box">
+                  <div class="contact-form">
+                    <form action="javascript:void(0);" method="post">
+
+                      <div class="row">
+                        <div class="col-sm-4 col-sm-offset-1">
+                          <div class="single-contact-btn">
+                            <button class="contact-btn" type="submit" name="login_user">Upload Marks</button>
+                          </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                          <div class="single-contact-btn">
+                            <button class="contact-btn" type="submit" name="login_user">Upload Datesheet</button>
+                          </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                          <div class="single-contact-btn">
+                            <button class="contact-btn" type="submit" name="login_user">Upload Sitting Arrangement</button>
+                          </div>
+                        </div>
+                      </div>
+<br><br><br>
+
+                      <div class="row">
+                        <div class="col-sm-4 col-sm-offset-1">
+                          <div class="single-contact-btn">
+                            <button class="contact-btn" type="submit" name="login_user">View Marks</button>
+                          </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                          <div class="single-contact-btn">
+                            <button class="contact-btn" type="submit" name="login_user">View Datesheet</button>
+                          </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                          <div class="single-contact-btn">
+                            <button class="contact-btn" type="submit" name="login_user">View Sitting Arrangement</button>
+                          </div>
+                        </div>
+                      </div>
+
+
+
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
 
 <?php include "inc/footer.php"?>

@@ -60,7 +60,8 @@
 					<div class="section-header contact-head  text-center">
 						<h2>Online Examination</h2>
 						<p>
-							Pallamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            The main objective of project on E-EXAMS is to manage the detail of the examination,
+              its scheduling ,faculty duty chart, student's detail and their result.
 						</p>
 					</div><!--/.section-header-->
 
