@@ -39,7 +39,7 @@
 	<body>
 
 
-<?php include "inc/header.php"?>
+   <?php include "inc/header.php"?>
 
 
 		<!--contact start-->
