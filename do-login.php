@@ -1,28 +1,40 @@
 <?php include('server.php');
 
-$username=$_POST['username'];
+$code=$_POST['code'];
+$password=$_POST['password'];
 $password=$_POST['password'];
 
-$query=mysqli_query($db,"SELECT * FROM `users` WHERE `username`='$_POST[username]' AND `status`='active' AND `password`=PASSWORD($password") or die(mysqli_error($db));;
-header("Location: view.php");
 
-//
-//     $count=mysqli_num_rows($query);
-//     $row=mysqli_fetch_array($query);
-//
-//     if ($count==true)
-//     {
-//         $_SESSION['username'] = $_POST['username'];
-//         $_SESSION['password'] = $_POST['password'];
-//         // echo "Invalid username or password";
-//         header("Location: view.php");
-//         exit();
-//
-//         // header("location: ../view.php");
-//         }
-//     else
-//     {
-//         echo "Invalid username or password";
-//         }
 
+
+
+if($_POST['dropdown'] == 'teacher')
+{
+$query=mysqli_query($db,"SELECT * FROM `exam` WHERE `userid`='$_POST[code]'  AND `password`=$password") or die(mysqli_error($db));;
+         // echo "Invalid username or password";
+
+
+    $count=mysqli_num_rows($query);
+    $row=mysqli_fetch_array($query);
+
+    if ($count==true)
+    {
+        $_SESSION['code'] = $_POST['code'];
+        $_SESSION['password'] = $_POST['password'];
+        // echo "Invalid username or password";
+        header("Location: teacher-dashboard.php");
+        exit();
+
+        // header("location: ../view.php");
+        }
+    else
+    {
+        echo "Invalid username or password";
+        }
+}
+
+else{
+  echo "getout";
+
+}
 ?>

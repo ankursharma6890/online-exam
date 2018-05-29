@@ -1,3 +1,5 @@
+<?php include('server.php'); ?>
+
 <!doctype html>
 <html class="no-js" lang="en">
 
@@ -58,15 +60,15 @@
 							<div class="col-sm-12">
 								<div class="single-contact-box">
 									<div class="contact-form">
-										<form>
+										<form action="do-login.php" method="post">
 
                       <div class="row">
 												<div class="col-sm-offset-3 col-sm-6 col-xs-12">
 													<div class="form-group">
-                            <select class="form-control">
+                            <select class="form-control" name="dropdown">
                               <option selected disabled value="User Type">User Type</option>
-                              <option>Teacher</option>
-                              <option>Student</option>
+                              <option value="teacher">Teacher</option>
+                              <option value="student">Student</option>
 
                             </select>
 													</div>
@@ -76,7 +78,7 @@
 											<div class="row">
 												<div class="col-sm-offset-3 col-sm-6 col-xs-12">
 													<div class="form-group">
-														<input type="text" class="form-control" id="username" placeholder="Username" name="username">
+														<input type="text" class="form-control" id="username" placeholder="User ID" name="code">
 													</div>
 												</div>
 											</div>
@@ -101,7 +103,7 @@
 
 
 													<div class="single-contact-btn pull-right">
-														<button class="contact-btn" type="button">Login</button>
+														<button class="contact-btn" type="submit" name="login_user">Login</button>
 													</div>
 												</div>
 											</div>

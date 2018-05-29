@@ -1,3 +1,13 @@
+<?php
+  session_start();
+
+  if (isset($_SESSION['code'])) {
+  	$_SESSION['msg'] = "You must log in first";
+    header("Location:login-student.php?err=" . urlencode("please login first"));
+  }
+
+
+?>
 <!doctype html>
 <html class="no-js" lang="en">
 
